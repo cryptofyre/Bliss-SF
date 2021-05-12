@@ -6,7 +6,11 @@
  * @source https://github.com/katacarbix/discord-stuff/themes/bliss/source.css
 **/
 
-@import url(https://raw.githubusercontent.com/cryptofyre/Bliss-SF/main/sf.css);
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
 :root {
 --Chat-Font-Used: 'San Francisco', normal ;
 --Chat-Font-Size: 15.5px;
